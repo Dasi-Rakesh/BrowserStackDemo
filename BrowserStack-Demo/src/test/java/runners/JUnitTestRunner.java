@@ -14,7 +14,7 @@ import managers.FileReaderManager;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "classpath:features", glue = { "step_definitions" }, plugin = {
         "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" }, monochrome = true, tags = {
-        "@Creation" })
+        "@Search" })
 public class JUnitTestRunner {
 
     @AfterClass

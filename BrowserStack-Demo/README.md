@@ -1,4 +1,24 @@
-selenium-cucumber : Automation Testing Using Java
+Selenium Cucumber tests
 
-selenium-cucumber is a behavior driven development (BDD) approach to write automation test script to test Web. 
-It enables you to write and execute automated acceptance/unit tests. It is cross-platform, open source and free. Automate your test cases with minimal coding.
+
+To Set User Credentials for Browser Stack:
+Go to config file : configs/Configuration.properties and modify username and access_key
+
+T0 execute the Test in Local:
+
+Go to config file : configs/Configuration.properties and update the value for environment as 'local' and enter a browser
+of choice
+
+To execute the Test with TestNG
+  --> Navigate to src\test\java\runners\TestNgTestRunner.java class and run the class as TestNG
+
+To execute the Test with JUnit
+ --> Navigate to src\test\java\runners\JUnitTestRunner.java class and run the class as JUnit
+
+To view the Feature file
+Go to src\test\resources\Features\FlipKart.feature
+ 
+To view Reports after Test Execution:
+Go to target\cucumber-reports\report.html and open it in a browser of choice
+
+
